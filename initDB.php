@@ -43,8 +43,6 @@ $koch->name = "Alfred";
 $koch->kennwort = "12345";
 $koch->ranking = "Anfänger";
 
-R::store($koch);
-
 
 // ### Neues Rezept anlegen ... ###
 	
@@ -69,8 +67,6 @@ $zutat = R::dispense('zutat');    //Achtung Namenskonvention: Beans (hier: zutat
 $zutat->name = "Mehl";
 $zutat->menge = 1.1;
 $zutat->einheit = "g";
-
-R::store($zutat);
 
 
 
