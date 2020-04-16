@@ -96,7 +96,7 @@ $id = R::store($rezept);   // RedBean untersucht die erstellten Beans und erstel
 
 
 
-// ### Zur Kontrolle wird das eben angelegte Rezept geladen und inklusiver aller verknüpften Daten sausgegeben ###
+// ### Zur Kontrolle wird das eben angelegte Rezept geladen und inklusiv aller verknüpften Daten sausgegeben ###
 
 
 
